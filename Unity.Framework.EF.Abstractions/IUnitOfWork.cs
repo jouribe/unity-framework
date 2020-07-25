@@ -1,7 +1,9 @@
-﻿namespace Unity.Framework.EF.Abstractions
+﻿using URF.Core.Abstractions;
+
+namespace Unity.Framework.EF.Abstractions
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork<TDbContext> : IUnitOfWork
     {
-        
+        //
     }
 }
